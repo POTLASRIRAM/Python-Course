@@ -1,0 +1,8 @@
+a=int(input("Enter age"))
+print(type(a))
+b=input("Enter age")
+print(type(b))
+c=float(input("Enter percentage"))
+print(type(c))
+d=bool(input("Enter true or false"))
+print(type(d))
