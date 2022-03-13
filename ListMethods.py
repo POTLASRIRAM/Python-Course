@@ -1,0 +1,15 @@
+l1=[45,4,6,3,6,9.64,1.0]
+l1.sort()
+l2=l1
+print(l1)
+l1.reverse()
+print(l1)
+l1.append(233)
+print(l1)
+l1.insert(8,111)
+print(l1.index(111))
+l1.pop(0)
+print(l1)
+print(l1[0])
+l1.remove(6)
+print(l1)
