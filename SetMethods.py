@@ -1,0 +1,14 @@
+a={3,9,4,5,6,7,55}
+print(len(a))
+a.remove(4)
+print(a)
+a.pop()
+print(a)
+a.clear()
+print(a)
+b={1,2,3,4,5,6,7,89}
+c={10,11,12,13,14,1,2,3,4}
+c=b.union(c)
+print(c)
+c=b.intersection(c)
+print(c)
