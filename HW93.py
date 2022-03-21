@@ -1,0 +1,1 @@
+print("Hi Hello how r u?",end=" ")
