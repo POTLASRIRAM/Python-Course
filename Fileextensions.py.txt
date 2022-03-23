@@ -1,0 +1,3 @@
+filename=input("Enter filename ")
+lst=filename.split(".")
+print(lst[-1])
