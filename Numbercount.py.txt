@@ -1,0 +1,5 @@
+'''Write a Python program to count the number 4 in a given list.'''
+lst=[]
+for i in range(0,5):
+    lst.append(int(input("Enter number ")))
+print(lst.count(4))

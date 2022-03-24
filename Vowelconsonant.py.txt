@@ -1,0 +1,7 @@
+'''Write a Python program to test whether a passed letter is a vowel or not.'''
+c=input("Enter a character = ")
+d=c.lower()
+if(d=="a" or d=="e" or d=="i" or d=="o" or d=="u"):
+    print("Vowel")
+else:
+    print("Consonant")

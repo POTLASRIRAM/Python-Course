@@ -1,0 +1,8 @@
+'''Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.'''
+no=int(input("Enter a number "))
+def evenorodd(no):
+    if(no%2==0):
+        print("Even")
+    else:
+        print("Odd")
+evenorodd(no)
