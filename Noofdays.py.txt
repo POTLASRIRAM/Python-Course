@@ -1,0 +1,17 @@
+'''Write a Python program to calculate number of days between two dates.
+Sample dates : (2014, 7, 2), (2014, 7, 11)
+Expected output : 9 days'''
+from datetime import date
+year=int(input("Enter starting year "))
+month=int(input("Enter starting month "))
+day=int(input("Enter starting day "))
+f_date = date(year, month, day)
+print(f_date)
+eyear=int(input("Enter end year "))
+emonth=int(input("Enter end month "))
+eday=int(input("Enter end day "))
+l_date = date(eyear,emonth,eday)
+print(l_date)
+delta = l_date - f_date
+print(delta)
+print(delta.days)

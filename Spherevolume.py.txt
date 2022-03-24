@@ -1,0 +1,4 @@
+'''Write a Python program to get the volume of a sphere with radius 6.'''
+radius=int(input("Enter radius of sphere "))
+volume=(4/3)*3.14*(radius*radius*radius)
+print("Volume of sphere = ",volume)

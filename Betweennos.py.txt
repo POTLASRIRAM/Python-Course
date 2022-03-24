@@ -1,0 +1,8 @@
+'''Write a Python program to test whether a number is within 100 of 1000 or 2000.'''
+no=int(input("Enter a number "))
+if(no<=100):
+    print("Between xero to hundred")
+elif(no<=1000):
+    print("Between hundred to thousand")
+elif(no<=2000):
+    print("Between thousand and two thousand")
