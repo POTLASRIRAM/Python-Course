@@ -1,0 +1,6 @@
+'''Write a Python program to concatenate all elements in a list into a string and return it'''
+l=[1,2,3,4,"hi",2.3]
+result=''
+for i in range(0,len(l)):
+    result=result+str(l[i])
+print(result)

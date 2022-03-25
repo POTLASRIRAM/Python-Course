@@ -1,0 +1,6 @@
+'''Write a Python program to create a histogram from a given list of integers.'''
+lst=[]
+for i in range(0,6):
+    lst.append(int(input("Enter number = ")))
+for i in range(0,len(lst)):
+    print("@"*lst[i])
