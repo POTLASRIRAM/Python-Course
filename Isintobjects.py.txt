@@ -1,0 +1,7 @@
+'''Write a Python program to add two objects if both objects are an integer type.'''
+n1=int(input("Enter first number "))
+n2=int(input("Enter second number "))
+if not(isinstance(n1,int) and isinstance(n2,int)):
+    print("Two values must be integers")
+else:
+    print(n1+n2)
