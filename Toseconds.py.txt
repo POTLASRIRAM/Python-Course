@@ -1,0 +1,7 @@
+'''Write a Python program to convert all units of time into seconds'''
+days=(int(input("Enter no of days "))*3600*24)
+hours=(int(input("Enter no of hours "))*3600)
+minutes=(int(input("Enter no of minutes "))*60)
+seconds=int(input("Enter no of seconds "))
+total=days+hours+minutes+seconds
+print("Seconds = ",total)
