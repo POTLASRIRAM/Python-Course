@@ -3,8 +3,8 @@ class Car:
     def __init__(self):
         self.milage=30
         self.speed=140
-    @classmethod
-    def c_company(cls):
+    @staticmethod
+    def c_company():
         return Car.car_company
 car1=Car()
 car2=Car()
