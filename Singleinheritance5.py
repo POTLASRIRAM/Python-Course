@@ -5,8 +5,8 @@ class Main:
         print(self.fv,self.sv)
 class Sub(Main):
     def sum(self):
-        a=super().fv
-        b=super().sv
+        a=super().self.fv
+        b=super().self.sv
         print(a,b)
 
 
