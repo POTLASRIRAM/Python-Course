@@ -1,10 +1,11 @@
-class Parent:
-    def student():
-        student_name="s"
-        student_rollno=23
-class Child(Parent):
-    def view():
-        print(super().student())
-c=Child()
-c.view()
-        
+class Main:
+    def __init__(self):
+        self.name="Sriram"
+    def namee(self):
+        print("Hi",self.name)
+class Sub(Main):
+    def __init__(self):
+        Main.__init__(self)
+        print(self.name)
+s=Sub()
+s.namee()

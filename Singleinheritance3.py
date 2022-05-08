@@ -1,14 +1,14 @@
 class Main:
-    def __init__(self,a,b):
-        self.a=a
-        self.b=b
-        print(self.a)
+    def __init__(self):
+        self.n1=20
+        self.n2=30
+    def Sum(self):
+        Total=self.n1+self.n2
+        print("Total = ",Total)
 class Sub(Main):
-    def __init__(self,a,b,c):
-        super().__init__(a,b)
-        self.c=c
-    def sum(self):
-        total=self.a+self.b+self.c
-        return total
-s=Sub(10,20,30)
-print(s.sum())
+    def __init__(self):
+        Main.__init__(self)
+        print(self.n1)
+        print(self.n2)
+s=Sub()
+s.Sum()

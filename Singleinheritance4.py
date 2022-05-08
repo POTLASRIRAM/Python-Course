@@ -1,15 +1,11 @@
 class Main:
-    fv=10
-    sc=20
+    def __init__(self):
+        self.n1=20
+        self.n2=30
 class Sub(Main):
-    def sum(self,a,b):
-        total=a+b
-        print("Total = ",total)
-    def sub(self,a,b):
-        sub=abs(a-b)
-        print("SUB = ",sub)
-a=Main.fv
-b=Main.sc
+    def __init__(self):
+        Main.__init__(self)
+        Total=self.n1+self.n2
+        print("Total = ",Total)
 s=Sub()
-s.sum(a,b)
-s.sub(a,b)
+
