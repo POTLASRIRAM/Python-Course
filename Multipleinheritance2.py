@@ -1,16 +1,11 @@
-class Main:
-    def __init__(self,name):
-        self.name=name
-    def name(self):
-        print("Hi",self.name)
-class Main1:
-    def __init__(self,name):
-        self.name=name
-        print("How are u",self.name,"?")
-class Sub(Main,Main1):
-    def __init__(self,name):
-        Main.__init__(self,name)
-        super().name()
-        
-s=Sub("Sriram")
-m=Main1("Potla")
+class P1:
+    def p1(self):
+        print("Hi this is p1")
+class P2:
+    def p2(self):
+        print("Hi thus is p2")
+class P3(P1,P2):
+    pass
+p=P3()
+p.p1()
+p.p2()
