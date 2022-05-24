@@ -1,9 +1,16 @@
-class Father:
-    f_name="p"
-class Mother:
-    m_name="l"
-class Child(Father,Mother):
-    c_name="s"
-    print("Father = ",Father.f_name)
-    print("Mother = ",Mother.m_name)
-    print("Child = ",c_name)
+class Grandpa:
+    def __init__(self,grandpa):
+        self.grandpa=grandpa
+        print("Grandfather = ",self.grandpa)
+class father(Grandpa):
+    def __init__(self,father,grandpa):
+        self.father=father
+        print("Father = ",self.father)
+        Grandpa.__init__(self,grandpa)
+class Son(father):
+    def __init__(self,Son,father,grandpa):
+        self.son=Son
+        print("Son = ",self.son)
+        father.__init__(self,father,grandpa)
+    
+s=Son("S","P","R")

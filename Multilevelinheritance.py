@@ -1,17 +1,18 @@
-class Main:
+class A:
     def __init__(self):
-        self.name="Sriram"
-    def name(self):
-        print("Hi",self.name)
-class Main1(Main):
+        self.a=10
+        self.b=20
+
+class B(A):
     def __init__(self):
-        Main.__init__(self)
-        
-        
-m=Main1()    
-class Sub(Main1):
+        A.__init__(self)
+        self.Total=self.a+self.b
+        print("Total at B = ",self.Total)
+B=B()
+
+class C(B):
     def __init__(self):
-        Main1.__init__(self)
-        print(self.name)
-        
-s=Sub()
+        B.__init__(self)
+        self.Totalc=self.Total+30
+        print("Total at C = ",self.Totalc)
+c=C()
